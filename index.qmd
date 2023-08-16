@@ -7,6 +7,7 @@ csl: include/bib/apa.csl
 format: 
   revealjs:
     footer: "No foolin'"
+    logo: include/img/databraryr-logo.png
 ---
 
 ## Support
@@ -65,8 +66,8 @@ format:
 ::: {.incremental}
 - What are we talking about?
 - Psychology a science of behavior and internal experience (perception, cognition, emotion...)
-- What is the logical, *physical* status of psychological states?
-- If they can't be measured directly
+- What is the logical, *physical* status of psychological states ($\phi\leftarrow\rightarrow\psi$)?
+- If $\psi$ can't be measured directly
     - And they can't
     - They really can't
 :::
@@ -337,6 +338,7 @@ Richard Feynmann
 ## Internal $\psi$ states not observable, but...
 
 - Behaviors are!
+- Contexts can be!
 
 ## Images and video are essential to the study of *behavior*
 
@@ -389,6 +391,7 @@ Richard Feynmann
     - Share with explicit participant/parent permission
 - Scriptable (==reproducible) workflows via the Databrary API and the [*databraryr* package](https://github.com/databrary/databraryr/)
 
+![](include/img/databraryr-logo.png){fig-align="center" width="25%"}
 ---
 
 ```{r echo=TRUE}
@@ -398,7 +401,18 @@ df <- databraryr::download_session_csv(vol_id = 4) |>
 xtabs(~ `participant-gender` + `participant-race`, df)
 ```
 
-## {background-iframe="https://penn-state-open-science/bootcamp-2023"}
+---
+
+Download and open a video from Databrary: <https://nyu.databrary.org/volume/1/slot/9807/-?asset=1>
+
+```{r echo=TRUE}
+db_vid <- databraryr::download_asset()
+system(paste0("open ", db_vid))
+```
+
+---
+
+![https://penn-state-open-science.github.io/bootcamp-2023/](include/img/bootcamp-2023.png){fig-align="center"}
 
 ---
 
@@ -410,6 +424,15 @@ xtabs(~ `participant-gender` + `participant-race`, df)
 ---
 
 ![[@Baker2016-rz]](include/img/baker-2016-repro-crisis.png){fig-align="center"}
+
+
+## May all our crises be 'good' ones...
+
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44271-023-00003-2/MediaObjects/44271_2023_3_Fig1_HTML.png?as=webp){fig-align="center"}
+
+<p style="text-align:center;">
+[@Korbmacher2023-jx]
+</p>
 
 ---
 
@@ -424,11 +447,9 @@ Robert Merton
 ::: {.column width="60%"}
 *What is science, really?*
 
-::: {.incremental}
 - a **stock of accumulated knowledge** (facts & findings)
 - a set of **characteristic methods** 
 - a **set of cultural values** [@Merton1973-vf, p. 268]
-:::
 
 :::
 
@@ -448,7 +469,7 @@ Robert Merton
 
 >If it was fun, they wouldn't have to pay you to do it.
 >
->*But now that you have my great grandson to love and support, and he's a Gilmore, so they better...*
+>*But now you have my great grandson to love and support, and he's a Gilmore, so they better...*
 
 <p style="text-align:center;">
 Great Grandpa Jerry Gilmore
@@ -458,7 +479,16 @@ Great Grandpa Jerry Gilmore
 
 ::::
 
+
 # Resources
+
+---
+
+```{r echo=TRUE, fig.align='center'}
+qrcode::qr_code("https://gilmore-lab.github.io/dev-prosem-2023-fall/") |>
+  plot()
+```
+
 
 ## About
 
@@ -470,6 +500,9 @@ The source files are in R and R Markdown, then rendered to HTML using the
 The HTML slides are hosted in a [GitHub repo](https://github.com/gilmore-lab/dev-prosem-2023-fall) and served by GitHub pages: 
 <https://gilmore-lab.github.io/dev-prosem-2023-fall/>
 
+```{r}
+databraryr::logout_db()
+unlink(".databrary.RData", recursive = TRUE)
+```
+
 ## References
-
-

@@ -487,8 +487,8 @@ Rick Gilmore
 <ul>
 <li class="fragment">What are we talking about?</li>
 <li class="fragment">Psychology a science of behavior and internal experience (perception, cognition, emotion…)</li>
-<li class="fragment">What is the logical, <em>physical</em> status of psychological states?</li>
-<li class="fragment">If they can’t be measured directly
+<li class="fragment">What is the logical, <em>physical</em> status of psychological states (<span class="math inline">\(\phi\leftarrow\rightarrow\psi\)</span>)?</li>
+<li class="fragment">If <span class="math inline">\(\psi\)</span> can’t be measured directly
 <ul>
 <li class="fragment">And they can’t</li>
 <li class="fragment">They really can’t</li>
@@ -714,6 +714,7 @@ Yoda
 <h2>Internal <span class="math inline">\(\psi\)</span> states not observable, but…</h2>
 <ul>
 <li>Behaviors are!</li>
+<li>Contexts can be!</li>
 </ul>
 </section>
 <section id="images-and-video-are-essential-to-the-study-of-behavior" class="slide level2">
@@ -776,7 +777,8 @@ Yoda
 </ul></li>
 <li>Scriptable (==reproducible) workflows via the Databrary API and the <a href="https://github.com/databrary/databraryr/"><em>databraryr</em> package</a></li>
 </ul>
-</section>
+
+<img data-src="include/img/databraryr-logo.png" style="width:25.0%" class="r-stretch quarto-figure-center"></section>
 <section class="slide level2">
 
 <div class="cell">
@@ -799,9 +801,18 @@ participant-gender Unknown or not reported White
 </div>
 </div>
 </section>
-<section id="section-3" class="slide level2" data-background-iframe="https://penn-state-open-science/bootcamp-2023">
-<h2></h2>
+<section class="slide level2">
+
+<p>Download and open a video from Databrary: <a href="https://nyu.databrary.org/volume/1/slot/9807/-?asset=1" class="uri">https://nyu.databrary.org/volume/1/slot/9807/-?asset=1</a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>db_vid <span class="ot">&lt;-</span> databraryr<span class="sc">::</span><span class="fu">download_asset</span>()</span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="fu">system</span>(<span class="fu">paste0</span>(<span class="st">"open "</span>, db_vid))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
+<section class="slide level2">
+
+
+<img data-src="include/img/bootcamp-2023.png" class="r-stretch quarto-figure-center"><p class="caption">https://penn-state-open-science.github.io/bootcamp-2023/</p></section>
 <section id="what-about-the-other-crisis" class="slide level2">
 <h2>What about the <em>other</em> crisis?</h2>
 <ul>
@@ -813,6 +824,13 @@ participant-gender Unknown or not reported White
 
 
 <img data-src="include/img/baker-2016-repro-crisis.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Baker2016-rz">(<a href="#/references" role="doc-biblioref" onclick="">Baker, 2016</a>)</span></p></section>
+<section id="may-all-our-crises-be-good-ones" class="slide level2">
+<h2>May all our crises be ‘good’ ones…</h2>
+
+<img data-src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44271-023-00003-2/MediaObjects/44271_2023_3_Fig1_HTML.png?as=webp" class="r-stretch quarto-figure-center"><p style="text-align:center;">
+<span class="citation" data-cites="Korbmacher2023-jx">(<a href="#/references" role="doc-biblioref" onclick="">Korbmacher et al., 2023</a>)</span>
+</p>
+</section>
 <section class="slide level2">
 
 <div class="columns">
@@ -821,13 +839,11 @@ participant-gender Unknown or not reported White
 <p><img data-src="https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg"></p>
 </div><div class="column" style="width:60%;">
 <p><em>What is science, really?</em></p>
-<div>
 <ul>
-<li class="fragment">a <strong>stock of accumulated knowledge</strong> (facts &amp; findings)</li>
-<li class="fragment">a set of <strong>characteristic methods</strong></li>
-<li class="fragment">a <strong>set of cultural values</strong> <span class="citation" data-cites="Merton1973-vf">(<a href="#/references" role="doc-biblioref" onclick="">Merton, 1973, p. 268</a>)</span></li>
+<li>a <strong>stock of accumulated knowledge</strong> (facts &amp; findings)</li>
+<li>a set of <strong>characteristic methods</strong></li>
+<li>a <strong>set of cultural values</strong> <span class="citation" data-cites="Merton1973-vf">(<a href="#/references" role="doc-biblioref" onclick="">Merton, 1973, p. 268</a>)</span></li>
 </ul>
-</div>
 </div>
 </div>
 </section>
@@ -839,7 +855,7 @@ participant-gender Unknown or not reported White
 </div><div class="column" style="width:60%;">
 <blockquote>
 <p>If it was fun, they wouldn’t have to pay you to do it.</p>
-<p><em>But now that you have my great grandson to love and support, and he’s a Gilmore, so they better…</em></p>
+<p><em>But now you have my great grandson to love and support, and he’s a Gilmore, so they better…</em></p>
 </blockquote>
 <p style="text-align:center;">
 Great Grandpa Jerry Gilmore
@@ -852,14 +868,28 @@ Great Grandpa Jerry Gilmore
 <h1>Resources</h1>
 
 </section>
+<section class="slide level2">
+
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>qrcode<span class="sc">::</span><span class="fu">qr_code</span>(<span class="st">"https://gilmore-lab.github.io/dev-prosem-2023-fall/"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a>  <span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch quarto-figure-center"></section>
 <section id="about" class="slide level2">
 <h2>About</h2>
 <p>This talk was produced using <a href="https://quarto.org">Quarto</a>, using the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2023.6.1.524.</p>
 <p>The source files are in R and R Markdown, then rendered to HTML using the <a href="https://revealjs.com">revealJS</a> framework. The HTML slides are hosted in a <a href="https://github.com/gilmore-lab/dev-prosem-2023-fall">GitHub repo</a> and served by GitHub pages: <a href="https://gilmore-lab.github.io/dev-prosem-2023-fall/" class="uri">https://gilmore-lab.github.io/dev-prosem-2023-fall/</a></p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
-<div class="footer footer-default">
+
+<img src="include/img/databraryr-logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>No foolin’</p>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
@@ -874,6 +904,9 @@ Gilmore, R. O., &amp; Adolph, K. E. (2017). Video can make behavioural research 
 </div>
 <div id="ref-Gilmore_undated-gj" class="csl-entry" role="listitem">
 Gilmore, R. O., Hillary, F., Lazar, N., &amp; Wham, B. (2023). Penn state open science survey. <a href="https://penn-state-open-science.github.io/survey-fall-2022/index.html" class="uri">https://penn-state-open-science.github.io/survey-fall-2022/index.html</a>. Retrieved from <a href="https://penn-state-open-science.github.io/survey-fall-2022/index.html">https://penn-state-open-science.github.io/survey-fall-2022/index.html</a>
+</div>
+<div id="ref-Korbmacher2023-jx" class="csl-entry" role="listitem">
+Korbmacher, M., Azevedo, F., Pennington, C. R., Hartmann, H., Pownall, M., Schmidt, K., … Evans, T. (2023). The replication crisis has led to positive structural, procedural, and community changes. <em>Communications Psychology</em>, <em>1</em>(1), 1–13. <a href="https://doi.org/10.1038/s44271-023-00003-2">https://doi.org/10.1038/s44271-023-00003-2</a>
 </div>
 <div id="ref-Merton1973-vf" class="csl-entry" role="listitem">
 Merton, R. W. (1973). The normative structure of science. In R. K. Merton &amp; N. W. Storer (Eds.), <em>The sociology of science: Theoretical and empirical investigations</em> (pp. 267–278). The University of Chicago Press.
