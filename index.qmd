@@ -1,0 +1,475 @@
+---
+title: "No foolin'"
+subtitle: "May all our crises be 'good' ones"
+author: "Rick Gilmore"
+bibliography: include/bib/open-sci.bib
+csl: include/bib/apa.csl
+format: 
+  revealjs:
+    footer: "No foolin'"
+---
+
+## Support
+
+- National Institutes of Health, R01-HD094830
+- National Science Foundation, OAS-2032713
+- John S. Templeton Foundation
+- Penn State Child Study Center
+
+## Agenda
+
+- Some crises...
+- Some struggling...
+- And their resolution
+
+# Crises...
+
+## Crisis #1
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-crisis.png){fig-align="center"}
+
+---
+
+![[@Gilmore_undated-gj]](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-repro-crisis-your-area-1.png){fig-align="center"}
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-failures.png){fig-align="center"}
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-your-field.png){fig-align="center"}
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-factors.png){fig-align="center"}
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-brushing-teeth.png){fig-align="center"}
+
+---
+
+![[@Saul2023-xa]](include/img/nyt-tessier-lavigne.png){fig-align="center"}
+
+---
+
+![[@Oransky_2023]](include/img/oransky-marcus-sci-am-2023.png)
+
+## What the *actual* *F*-test?
+
+## Crisis #2
+
+::: {.incremental}
+- What are we talking about?
+- Psychology a science of behavior and internal experience (perception, cognition, emotion...)
+- What is the logical, *physical* status of psychological states?
+- If they can't be measured directly
+    - And they can't
+    - They really can't
+:::
+
+# Struggling
+
+---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](include/img/gilmore-jerry.png)
+
+:::
+
+::: {.column width=60%}
+
+>If it was fun, they wouldn't have to pay you to do it.
+
+<p style="text-align:center;">
+Jerry Gilmore
+</p>
+
+:::
+
+::::
+
+---
+
+![](include/img/nobody-cares-work-harder.png){fig-align="center"}
+
+## The stoic's advice
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125](include/img/Yoda_SWSB.webp){fig-align="center"}
+
+:::
+
+::: {.column width=60%}
+
+>Do or do not. There is no try.
+
+<p style="text-align:center;">
+Yoda
+</p>
+
+:::
+
+::::
+
+---
+
+![](https://m.media-amazon.com/images/I/41s1KW354HL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg){fig-align="center"}
+---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](https://americanswhotellthetruth.org/wp-content/uploads/2022/06/Pat-Humphries-AWTT-Portrait.jpg){fig-align="center"}
+
+:::
+
+::: {.column width=60%}
+
+>Oh, you thought it should be easy so the truth eluded you.
+>
+>The only way out is through 
+
+<p style="text-align:center;">
+"Baptism of Fire" by Pat Humphries
+</p>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Robert Merton
+
+![](https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+What is science, really? 
+
+::: {.incremental}
+- a **stock of accumulated knowledge** (facts & findings)
+- a set of **characteristic methods** 
+
+- a **set of cultural values** [@Merton1973-vf, p. 268]
+:::
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+>...the idea that we all hope you have learned in studying science in school...It’s a kind of scientific integrity, a **principle of scientific thought that corresponds to a kind of utter honesty**... 
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+> The first principle is that **you must not fool yourself—and you are the easiest person to fool**. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists...
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+> ...a specific, extra type of integrity that is not lying, but **bending over backwards to show how you’re maybe wrong**, that you ought to do when acting as a scientist. And this is our responsibility as scientists, certainly to other scientists, and I think to laymen. 
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+> ...If you’ve made up your mind to test a theory, or you want to explain some idea, you should **always decide to publish it whichever way it comes out**. If we only publish results of a certain kind, we can make the argument look good. We must publish both kinds of result. 
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+> ...if you’re doing an experiment, you should **report everything that you think might make it invalid--not only what you think is right about it**: other causes that could possibly explain your results; and things you thought of that you’ve eliminated by some other experiment...
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+# Resolution
+
+---
+
+![[@Qian2022-yp]](include/img/qian-berenbaum-gilmore.png){figure-align="center"}
+
+---
+
+![https://github.com/gilmore-lab/sex-differences-project](include/img/sex-diffs-project-github.png){fig-align="center"}
+
+## {background-iframe="https://gilmore-lab.github.io/sex-differences-project/analysis/qian-berenbaum-gilmore.html"}
+
+---
+
+![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-01-boxplots-new.jpg){fig-align="center"}
+
+---
+
+![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-02-mental-rot-vision-new.jpg){fig-align="center"}
+
+---
+
+![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-03-contrast-motion.jpg){fig-align="center"}
+
+---
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-S1-vocab.jpg){fig-align="center"}
+
+:::
+
+::: {.column width=50%}
+
+![[@Qian2022-yp]](https://raw.githubusercontent.com/gilmore-lab/sex-differences-project/master/analysis/paper_figs/fig-S2-contrast-interests.jpg){fig-align="center"}
+
+:::
+
+::::
+
+---
+
+## Internal $\psi$ states not observable, but...
+
+- Behaviors are!
+
+## Images and video are essential to the study of *behavior*
+
+---
+
+![[@GilmoreAdolph2017]](include/img/gilmore-adolph-nat-hum-beh-2017.png)
+
+## {data-background-video="https://www.anhourinthelife.org/img/PLAY-parents-noaudio.mp4"}
+
+## Play & Learning Across a Year (PLAY)
+
+- What do mothers and their infants actually **do** when they are together at home?
+- $n=$ 1,000 dyads
+- 30+ sites
+- 12, 18-, & 24-month-olds
+- 1 hr natural behavior; video home tour; video-recorded survey questionnaires
+- All openly shared on [Databrary.org](https://databrary.org)
+
+---
+
+- Full protocol and coding manual shared openly: <https://play-project.org>
+- R Markdown-based project status site: <https://play-behaviorome.github.io/KoBoToolbox/>
+- Novel curation strategies that reduce *post hoc* burden [@Soska2021-mh]
+- Extensive (and open) quality assurance protocols [@Soska2021-mh]
+
+---
+
+![[@Soska2021-mh, Fig 3]](include/img/soska-2021-fig-3.png){fig-align="center"}
+
+---
+
+![[@Soska2021-mh, Fig 1]](include/img/soska-2021-fig-1.png){fig-align="center"}
+
+
+## {background-iframe="https://play-behaviorome.github.io/KoBoToolbox/"}
+
+---
+
+- R Markdown-based project status site: <https://play-behaviorome.github.io/KoBoToolbox/>
+- Embed cleaning & simple visualizations into ongoing workflow
+- Data are (nearly) always in a share-able form
+
+---
+
+## Building the future... 
+
+- [Databrary.org](https://databrary.org) data library
+    - Video + other identifiable/sensitive data
+    - Share openly, but not publicly, with restricted audience of researchers
+    - Share with explicit participant/parent permission
+- Scriptable (==reproducible) workflows via the Databrary API and the [*databraryr* package](https://github.com/databrary/databraryr/)
+
+---
+
+```{r echo=TRUE}
+databraryr::login_db(Sys.getenv("DATABRARY_LOGIN"))
+df <- databraryr::download_session_csv(vol_id = 4) |> 
+  readr::read_csv()
+xtabs(~ `participant-gender` + `participant-race`, df)
+```
+
+## {background-iframe="https://penn-state-open-science/bootcamp-2023"}
+
+---
+
+## What about the *other* crisis?
+
+- The one about the logical, physical status of $\psi$ states...
+- Progress, but that's another talk...
+
+---
+
+![[@Baker2016-rz]](include/img/baker-2016-repro-crisis.png){fig-align="center"}
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Robert Merton
+
+![](https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg)
+:::
+
+::: {.column width="60%"}
+*What is science, really?*
+
+::: {.incremental}
+- a **stock of accumulated knowledge** (facts & findings)
+- a set of **characteristic methods** 
+- a **set of cultural values** [@Merton1973-vf, p. 268]
+:::
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](include/img/gilmore-jerry.png)
+
+:::
+
+::: {.column width=60%}
+
+>If it was fun, they wouldn't have to pay you to do it.
+>
+>*But now that you have my great grandson to love and support, and he's a Gilmore, so they better...*
+
+<p style="text-align:center;">
+Great Grandpa Jerry Gilmore
+</p>
+
+:::
+
+::::
+
+# Resources
+
+## About
+
+This talk was produced using [Quarto](https://quarto.org), using the [RStudio](https://posit.co/products/open-source/rstudio/)
+Integrated Development Environment (IDE), version 2023.6.1.524.
+
+The source files are in R and R Markdown, then rendered to HTML using the
+[revealJS](https://revealjs.com) framework. 
+The HTML slides are hosted in a [GitHub repo](https://github.com/gilmore-lab/dev-prosem-2023-fall) and served by GitHub pages: 
+<https://gilmore-lab.github.io/dev-prosem-2023-fall/>
+
+## References
+
+
