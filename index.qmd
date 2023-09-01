@@ -237,6 +237,31 @@ Center for Open Science
 
 ---
 
+```{mermaid}
+flowchart LR
+  A([Grad-1]) --> B(Prof-1)
+  B --> C[/Area-1/]
+  C --> D[Dept-1]
+  D --> E{College-1}
+  F([Grad-2]) --> B
+  G([Grad-3]) --> B
+  H([Grad-4]) --> I[Prof-2]
+  I --> C
+  J([Grad-5]) --> K[Prof-3]
+  K --> L[/Area-2/]
+  L --> D
+  N[Prof-4] --> L
+  O[Prof-5] --> P[Dept-2]
+  P --> E
+  Q([Grad-6]) --> R[Prof-6]
+  R --> S[Dept-3]
+  S --> T{College-2}
+  T --> U((Univ-1))
+  E --> U
+```
+
+---
+
 ### Crisis #2e: Toothbrush culture
 
 ![](https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg){fig-align="center"}
@@ -291,6 +316,10 @@ Center for Open Science
 ---
 
 ![Source: <https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg>](https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg){fig-align="center"}
+
+## You may ask yourself...
+
+![Talking Heads - "Once In A Lifetime"](https://i.makeagif.com/media/10-31-2015/MKwRfJ.gif)
 
 ---
 
@@ -750,9 +779,7 @@ data.frame(time = c(x1, x2), cum_work = c(y1, y2), timing = when) |>
   theme(legend.title = element_blank(), legend.position = "bottom")
 ```
 
-## Lessons Learned
-
-### Opening the file drawer
+## Opening the file drawer
 
 :::: {.columns}
 
@@ -943,7 +970,30 @@ Richard Feynmann
 
 ::: {.column width="60%"}
 
-> The first principle is that **you must not fool yourself—and you are the easiest person to fool**. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists...
+> The first principle is that **you must not fool yourself—and you are the easiest person to fool**....
+
+<p style="text-align:center;">
+[@Feynman1974-ld]
+</p>
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Richard Feynmann
+
+![](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg)
+
+:::
+
+::: {.column width="60%"}
+
+>So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described...**May you have that freedom**.
 
 <p style="text-align:center;">
 [@Feynman1974-ld]
@@ -1000,8 +1050,26 @@ Richard Feynmann
 ::: {.column width=60%}
 
 >If it was fun, they wouldn't have to pay you to do it.
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](include/img/gilmore-jerry.png)
+
+:::
+
+::: {.column width=60%}
+
+>If it was fun, they wouldn't have to pay you to do it.
 >
->*But now that it's more fun, they still should pay you. Especially now that you have my new great-grandson to love and support...*
+>*But now that it's more fun, they still should pay you...probably better than they are now. Especially now that you have my new great-grandson to love and support...*
 
 <p style="text-align:center;">
 *Great Grandpa* Jerry Gilmore
@@ -1020,6 +1088,7 @@ Richard Feynmann
 rog1 AT-SYMBOL psu PERIOD edu</br>
 114 Moore</br>
 [github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
+[rick-gilmore.com](https://www.rick-gilmore.com)</br>
 [github.com/psu-psychology](https://github.com/psu-psychology)</br>
 [github.com/penn-state-open-science](https://github.com/penn-state-open-science)
 </p>

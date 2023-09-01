@@ -403,6 +403,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="index_files/libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -648,6 +651,38 @@ Rick Gilmore
 <img data-src="https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg" class="uri">https://149365049.v2.pressablecdn.com/wp-content/uploads/2014/07/6-blind-men-hans-1024x654.jpg</a></p></section>
 <section class="slide level2">
 
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A([Grad-1]) --&gt; B(Prof-1)
+  B --&gt; C[/Area-1/]
+  C --&gt; D[Dept-1]
+  D --&gt; E{College-1}
+  F([Grad-2]) --&gt; B
+  G([Grad-3]) --&gt; B
+  H([Grad-4]) --&gt; I[Prof-2]
+  I --&gt; C
+  J([Grad-5]) --&gt; K[Prof-3]
+  K --&gt; L[/Area-2/]
+  L --&gt; D
+  N[Prof-4] --&gt; L
+  O[Prof-5] --&gt; P[Dept-2]
+  P --&gt; E
+  Q([Grad-6]) --&gt; R[Prof-6]
+  R --&gt; S[Dept-3]
+  S --&gt; T{College-2}
+  T --&gt; U((Univ-1))
+  E --&gt; U
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
 <h3 id="crisis-2e-toothbrush-culture">Crisis #2e: Toothbrush culture</h3>
 
 <img data-src="https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg" class="r-stretch quarto-figure-center"></section>
@@ -700,6 +735,10 @@ Rick Gilmore
 
 
 <img data-src="https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg" class="uri">https://images.agoramedia.com/wte3.0/gcms/Why-Babies-Love-Mirrors-722x406.jpg</a></p></section>
+<section id="you-may-ask-yourself" class="slide level2">
+<h2>You may ask yourself…</h2>
+
+<img data-src="https://i.makeagif.com/media/10-31-2015/MKwRfJ.gif" class="r-stretch quarto-figure-center"><p class="caption">Talking Heads - “Once In A Lifetime”</p></section>
 <section class="slide level2">
 
 <div style="text-align:center;">
@@ -1104,9 +1143,8 @@ Yoda
 
 
 <img data-src="index_files/figure-revealjs/fig-embed-defer-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Embed curation &amp; QA or defer it</p></section>
-<section id="lessons-learned-8" class="slide level2">
-<h2>Lessons Learned</h2>
-<h3 id="opening-the-file-drawer">Opening the file drawer</h3>
+<section id="opening-the-file-drawer" class="slide level2">
+<h2>Opening the file drawer</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
@@ -1329,7 +1367,23 @@ participant-gender Unknown or not reported White
 <p><img data-src="https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg"></p>
 </div><div class="column" style="width:60%;">
 <blockquote>
-<p>The first principle is that <strong>you must not fool yourself—and you are the easiest person to fool</strong>. So you have to be very careful about that. After you’ve not fooled yourself, it’s easy not to fool other scientists…</p>
+<p>The first principle is that <strong>you must not fool yourself—and you are the easiest person to fool</strong>….</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Feynman1974-ld">(<a href="#/references" role="doc-biblioref" onclick="">Feynman, 1974</a>)</span>
+</p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Richard Feynmann</p>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Richard_Feynman_Nobel.jpg/220px-Richard_Feynman_Nobel.jpg"></p>
+</div><div class="column" style="width:60%;">
+<blockquote>
+<p>So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described…<strong>May you have that freedom</strong>.</p>
 </blockquote>
 <p style="text-align:center;">
 <span class="citation" data-cites="Feynman1974-ld">(<a href="#/references" role="doc-biblioref" onclick="">Feynman, 1974</a>)</span>
@@ -1378,7 +1432,19 @@ participant-gender Unknown or not reported White
 </div><div class="column" style="width:60%;">
 <blockquote>
 <p>If it was fun, they wouldn’t have to pay you to do it.</p>
-<p><em>But now that it’s more fun, they still should pay you. Especially now that you have my new great-grandson to love and support…</em></p>
+</blockquote>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="include/img/gilmore-jerry.png"></p>
+</div><div class="column" style="width:60%;">
+<blockquote>
+<p>If it was fun, they wouldn’t have to pay you to do it.</p>
+<p><em>But now that it’s more fun, they still should pay you…probably better than they are now. Especially now that you have my new great-grandson to love and support…</em></p>
 </blockquote>
 <p style="text-align:center;">
 <em>Great Grandpa</em> Jerry Gilmore
@@ -1390,10 +1456,10 @@ participant-gender Unknown or not reported White
 
 <h3 id="no-foolin-may-all-our-crises-be-good-ones">No foolin’: May all our crises be ‘good’ ones</h3>
 <p style="text-align:center;">
-<strong>Rick Gilmore</strong><br> rog1 AT-SYMBOL psu PERIOD edu<br> 114 Moore<br> <a href="https://github.com/gilmore-lab">github.com/gilmore-lab</a><br> <a href="https://github.com/psu-psychology">github.com/psu-psychology</a><br> <a href="https://github.com/penn-state-open-science">github.com/penn-state-open-science</a>
+<strong>Rick Gilmore</strong><br> rog1 AT-SYMBOL psu PERIOD edu<br> 114 Moore<br> <a href="https://github.com/gilmore-lab">github.com/gilmore-lab</a><br> <a href="https://www.rick-gilmore.com">rick-gilmore.com</a><br> <a href="https://github.com/psu-psychology">github.com/psu-psychology</a><br> <a href="https://github.com/penn-state-open-science">github.com/penn-state-open-science</a>
 </p>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch quarto-figure-center"></section></section>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch quarto-figure-center"></section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
 <h1>Resources</h1>
@@ -1406,7 +1472,7 @@ participant-gender Unknown or not reported White
 <span id="cb6-2"><a href="#cb6-2"></a>  <span class="fu">plot</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="index_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">HTML slides from Rick Gilmore’s talk on 2023-09-06</p></section>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">HTML slides from Rick Gilmore’s talk on 2023-09-06</p></section>
 <section id="about" class="slide level2">
 <h2>About</h2>
 <p>This talk was produced using <a href="https://quarto.org">Quarto</a> with the <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> Integrated Development Environment (IDE), version 2023.6.2.561, <span class="citation" data-cites="rstudio_cite">(<a href="#/references" role="doc-biblioref" onclick="">Posit team, 2023</a>)</span>.</p>
